@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "avgard";
+  src: url("./fonts/AVGARDD.TTF");
+
+  font-family: "avenir-book";
+  src: url("./fonts/AvenirLTStd-Book.otf");
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.spacerw10{
+  width: 4em;
+}
+
+.spacerw5{
+  width: 2em;
+}
+
+.spacerH10{
+  height: 4em;
+}
+
+
+ a:link {
+  color: #000;
+  text-decoration:none;
+}
+
+ a:visited {
+  color: #000;
+  text-decoration:none;
+}
+
+@media screen and (max-width: 700px) {
+  .spacerw10{
+    width: 2em;
+  }
+  .spacerH10{
+    height: 0em;
+  }
+}
+  
